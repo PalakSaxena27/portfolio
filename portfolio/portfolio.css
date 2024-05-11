@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    background-color: #081b29;
+    
+}
+body{
+    color:white;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #051129;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+position: relative;
+font-size: 25px;
+color:white;
+text-decoration: none;
+ font-weight: 600;
+
+}
+.navbar a{
+    display:inline-block;
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    font-weight:500 ;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+.navbar a:hover{
+    color: cyan;
+}
+.home{
+  /* margin: 16% 20% 15% 25%; */
+   margin-top: 10%;
+   margin-right: 48%;
+   margin-bottom: 5%;
+   /* border :2px solid ;*/
+    padding :35px;
+    padding-left: 2%;
+    padding-right: 8%;
+    position: relative;
+    width: 45%;
+    justify-content: space-between;
+    flex-direction: column;
+    
+
+    
+}
+.home-content{
+    max-width: 500px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 120%;
+}
+.home-content h1{
+    font-size: 40px;
+    font-weight: 200;
+    margin:-3px 0;
+}
+.home-content p{
+    font-size: 20px;
+    line-height: 120%;
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-size: 16px;
+    color:black;
+    background-color: cyan;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 40px cyan,0 0 80px cyan, 0 0 100px cyan
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+    margin-left :60%;
+    padding: 2%;
+    padding-bottom: 6rem;
+   /* border: 2px solid black;*/
+    color: white;
+
+}
+.about-text h2{
+font-size: 60px;
+color: white;
+}
+.about-text h2 span{
+    color:cyan
+}
+.about-text h4{
+    font-size:29px;
+    font-weight: 500px;
+    color:white;
+
+    line-height: 1.7;
+    margin:15px 0 30px;
+}
+.about-text p{
+    color:white;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+   
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.skill {
+    margin-bottom: 30px;
+    display: block;
+    
+    margin: 10px;
+  }
+  
+  progress {
+    width: 700px;
+    height: 30px;
+    
+    appearance: none;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(238, 229, 229);
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: rgb(238, 229, 229);
+    border-radius: 4px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: cyan;
+    border-radius: 4px;
+  }
+  
+  .sub-title h2{
+    text-align: left;
+    padding-right: 12%;
+    font-size: 60px;
+    }
+    .sub-title h2 span{
+        color:cyan
+    }
+    .myskills{
+      /*  border: 2px solid black;*/
+        margin-top: 100px;
+        margin-right: 450px;
+        margin-bottom: 100px;
+        text-align: left;
+        padding-top:2px;
+        padding-left:0%;
+    }
+    .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      
+      footer {
+        background:#051129;
+        padding: 20px 0;
+        text-align: center;
+      }
+      
+      footer p {
+        margin: 0;
+        font-size: 14px;
+        color:white;
+      }
+    
